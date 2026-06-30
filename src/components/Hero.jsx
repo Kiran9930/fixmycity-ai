@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaMapMarkedAlt, FaRobot, FaShieldAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -42,11 +43,11 @@ function Hero() {
 
           <div className="flex gap-5 mt-8">
 
-            <button className="bg-blue-600 text-white px-7 py-3 rounded-xl hover:bg-blue-700 transition">
-
-              Report Issue
-
-            </button>
+            <Link to="/report">
+  <button className="bg-blue-600 text-white px-7 py-3 rounded-xl hover:bg-blue-700 transition">
+    Report Issue
+  </button>
+</Link>
 
             <button className="border border-blue-600 px-7 py-3 rounded-xl hover:bg-blue-50">
 
