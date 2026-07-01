@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../api/api";
 import DashboardNavbar from "../components/dashboard/DashboardNavbar";
-import DashboardStats from "../components/dashboard/DashboardStats";
+import DashboardStats from "../components/dashboard/dashboardStats";
 
 function Dashboard() {
   const [reports, setReports] = useState([]);
