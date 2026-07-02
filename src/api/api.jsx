@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://vercel.com/kiran-s-projects19/fixmycity-backend", 
+  baseURL: "https://fixmycity-backend.vercel.app", 
 });
 
 export default api;
